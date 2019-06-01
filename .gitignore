@@ -1,0 +1,8 @@
+.idea
+*.css
+*.map
+*.swp
+*.swo
+*.plan
+node_modules
+package-lock.json

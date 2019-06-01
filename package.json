@@ -1,0 +1,14 @@
+{
+  "name": "rowbot",
+  "version": "1.0.0",
+  "main": "static/public/dist/bundle.js",
+  "scripts": {
+    "lint:css": "stylelint static/**/*.scss",
+    "build": "sass ./static/styles.scss:./static/public/css/style.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^10.0.1",
+    "sass": "^1.20.1"
+  }
+}

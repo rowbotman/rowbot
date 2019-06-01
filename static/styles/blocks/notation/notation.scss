@@ -1,0 +1,16 @@
+.notation {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  &__text {
+    font-family: Helvetica;
+    font-size: 24px;
+    &_main {
+      font-weight: bold;
+    }
+  }
+  &__link {
+    color: red;
+    font-size: 24px;
+  }
+}
